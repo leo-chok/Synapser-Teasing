@@ -10,7 +10,7 @@ const PitchSection = () => {
   ];
 
   return (
-    <section id="pitch" className="relative py-24 md:py-32">
+    <section id="presentation" className="relative py-24 md:py-32">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial="hidden"
@@ -29,8 +29,25 @@ const PitchSection = () => {
             variants={fadeInUp}
             className="text-3xl md:text-5xl font-bold text-white mb-8"
           >
-            Le <span className="text-gradient">Pitch</span>
+            <span className="text-gradient">Présentation</span>
           </motion.h2>
+
+          {/* YouTube Video */}
+          <motion.div 
+            variants={fadeInUp}
+            className="relative max-w-4xl mx-auto mb-12"
+          >
+            <div className="relative w-full aspect-video rounded-2xl overflow-hidden glow-cyan-subtle">
+              <iframe
+                src="https://www.youtube.com/embed/iZueQg5KT5M"
+                title="Synapser Présentation Video"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="absolute inset-0 w-full h-full"
+              />
+            </div>
+          </motion.div>
 
           <motion.div 
             variants={fadeInUp}
