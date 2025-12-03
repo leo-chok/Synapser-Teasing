@@ -6,7 +6,7 @@ const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { name: 'Pitch', href: '#pitch' },
+    { name: 'Présentation', href: '#presentation' },
     { name: 'Architecture', href: '#architecture' },
     { name: 'Fonctionnalités', href: '#features' },
   ];
@@ -25,9 +25,9 @@ const Navigation = () => {
             <img 
               src="/Synapser_logo.png" 
               alt="Synapser Logo" 
-              className="h-10 w-10 md:h-12 md:w-12 object-contain"
+              className="h-40 w-40 md:h-40 md:w-40 object-contain"
             />
-            <span className="text-xl md:text-2xl font-bold text-gradient">Synapser</span>
+            
           </div>
 
           {/* Desktop Navigation */}
