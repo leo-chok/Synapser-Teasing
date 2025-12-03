@@ -16,6 +16,7 @@
 ### 🔗 Liens Rapides
 - [🌐 **Voir la Landing Page du Projet**](https://synapser-teasing.vercel.app/)
 - [🎬 **Voir la Vidéo de Présentation**](https://www.youtube.com/watch?v=iZueQg5KT5M)
+- [💬 **Rejoindre le Discord**](https://discord.gg/56R2t4wM)
 
 ---
 
@@ -83,6 +84,8 @@ Nous avons l'architecture, la vision et le prototype. Nous cherchons des passion
 - **Développeurs Unity/Unreal** (Pour le module VR).
 - **Backend Engineers** (Node.js/Data security).
 - **Data Scientists** (Traitement de signal EEG).
+
+👉 **[Rejoins-nous sur Discord](https://discord.gg/56R2t4wM)** pour discuter du projet !
 
 > **Votez Synapser pour le projet de fin d'études.**
 > *Codez pour soigner.*
